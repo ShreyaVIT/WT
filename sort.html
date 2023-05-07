@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="sort.css">
+  <script type="text/javascript" src="sort.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top_page">
+            <h1 class="title">ARRAY OPERATIONS </h1>
+        </div>
+
+        <div class="bottom_page">
+            <form name="RegForm" class="RegForm">
+                <p>Enter elements of array: <br /><input type="text" size="65" id="arr"/></p>
+                <br />
+
+                <p>Result: <br /><input type="text" size="65" id="result"/></p>
+                <br />
+                
+                <div class="buttons">
+                    <input id="button" type="button" value="Sort" onclick="arrsort()"/>
+                    <input id="button8" type="button" value="Sort as String" onclick="strsort()"/>
+                    <input id="button3" type="button" value="Array Length" onclick="arrlength()"/>
+                    <input id="button4" type="button" value="Reverse" onclick="arrrev()"/>
+                    <input id="button1" type="button" value="Bubble Sort" onclick="bubblesort()"/>
+                    <input id="button2" type="button" value="Insertion Sort" onclick="insertionsort()"/>
+                    <input id="button6" type="button" value="(Linear)Search Element" onclick="searchh(document.getElementById('searchelem').value)"/>
+                    <input class="searchelemans" type="text" size="65" id="searchelem" placeholder="Enter the element to be searched"/>
+                    <input id="button5" type="button" value="In-built Reverse" onclick="myarrrev()"/>
+                    <input id="button7" type="button" value="Reset Result" onclick="resettt()"/>
+                    <input id="button9" type="button" value="(Binary)Search Element" onclick="searchh1(document.getElementById('searchelem1').value)"/>
+                    <input class="searchelemans" type="text" size="65" id="searchelem1" placeholder="Enter the element to be searched"/>
+                    
+                </div>
+                 
+            </form>
+        </div>
+    </div>
+</body>
+</html>
